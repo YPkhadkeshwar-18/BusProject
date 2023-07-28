@@ -1,0 +1,141 @@
+/* You can add global styles to this file, and also import other style files */
+/* @import '../src/assets/css/allmincss.css'; */
+/* @import '../src/assets/css/fontscss.css'; */
+
+@import '../src/assets/css/app.css';
+
+/* @import '../src/assets/css/main.css'; */
+@import '../src/assets/css/util.css';
+
+
+
+@import '../src/assets/vendor/bootstrap/css/bootstrap.min.css';
+@import '../src/assets/vendor/css-hamburgers/hamburgers.min.css';
+
+@import '../src/assets/vendor/select2/select2.min.css';
+
+@import '../src/assets/vendor/animate/animate.css';
+
+
+
+
+
+.select-bus {
+    background: url(./assets/img/slider.jpg) ;
+    background-size: cover;
+position: relative;
+    min-height:300px
+    }
+
+    .overlap {
+       
+        background-color: rgb(178, 190, 195,.5);
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%
+    }
+
+    .btn-search {
+        background: coral;
+        border-color:coral ;
+        color:#fff;
+    }
+
+    .seats {
+        width: 201px;
+        border: 1px solid #ccc;
+        padding: 20px;
+        margin: 41px auto;
+        /* height: 100%; */
+        padding-left: 34px;
+        padding-right: 10px;
+        float: left;
+    }
+
+.handle {
+    float: left;
+    width: 100%;
+}
+.handle img {
+    float: right;
+}
+    .row1  {
+        float: left;
+        width: 50%;
+    }
+
+    .row1 ul {
+        width: 40%;
+        float: left;
+    }
+
+    .seat_plan_wrap {
+        border: 4px solid coral;
+        padding: 20px;
+    }
+    .total{
+       margin-top: 10px;
+        background: #F7F7F7;
+        padding: 7px; 
+        border: 1px solid #eee;
+    }   
+
+    .seat_plan {
+        height: 270px;
+    }
+    .alert {
+        float: left;
+    }
+
+
+    /* MODAL WIDTH EDIT  */
+    .modal-lg {
+        max-width: 80%!important;
+    }
+    .modal-dialog {
+        max-width:1000px; 
+    }
+
+        /* MODAL WIDTH EDIT  */
+
+
+
+        .j_details p {
+            margin: 3px 0px;
+            font-size: 13px;
+        }
+
+
+        .ticket {
+            border: 1px solid #ccc;
+    box-shadow: 1px 0px 9px 2px #ccc;
+    margin: 26px;
+        }
+        .ticket table {
+            border: none
+        }
+
+        .ticket table thead {
+            border: none;
+            background: #FCFCE0;
+            font-weight: bold
+        }
+        .ticket  table td {
+            border: none;
+        }
+
+        .ticket table.ps_details {
+            border: 1px solid #ccc;
+        }
+
+        .ticket table.ps_details span {
+            color: #424242;
+            font-size: 12px;
+            padding: 0 6px;
+        }
+
+
+
+        
